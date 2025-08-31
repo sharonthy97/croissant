@@ -3,16 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="/css/style.css" />
     <title>Croissant Image</title>
   </head>
   <body>
-    <img src="/image/croissant.jpg" />
-    <div>
-      <a href="/">Homepage</a>
-    </div>
-    <div>
-      <a href="/contact.html">Contact me</a>
+    <h1>A Croissant</h1>
+    <img src="/image/croissant.jpg" class="rounded" />
+    <div class="container">
+      <div class="row">
+        <a href="/" class="col">Homepage</a>
+
+        <a href="/contact.html" class="col">Contact me</a>
+
+        <a href="/photo.html" class="col">Image</a>
+      </div>
     </div>
   </body>
 </html>
